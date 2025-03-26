@@ -1,6 +1,118 @@
 {
   "channels": [
     {
+      "id": 1,
+      "name": "ABC News Nepal",
+      "slug": "abc-news-nepal",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/608.png",
+      "app": "abc-news"
+    },
+    {
+      "id": 2,
+      "name": "Business TV",
+      "slug": "business-tv",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/609.png",
+      "app": "business-tv"
+    },
+    {
+      "id": 3,
+      "name": "TV Filmy ",
+      "slug": "tv-filmy",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/607.png",
+      "app": "flim-gopikrishna"
+    },
+    {
+      "id": 4,
+      "name": "Indigenous TV",
+      "slug": "indigenous-tv",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/606.png",
+      "app": "indigenious-tv"
+    },
+    {
+      "id": 5,
+      "name": "Kantipur HD",
+      "slug": "kantipur-hd",
+      "logo": "https://play-lh.googleusercontent.com/CQSmPpi6-l-S44IER_44ytPqQ-V4CbCPWspMJGNp3rYcD6VIEdiBenpMBB0DAi2Vow",
+      "app": "kantipur"
+    },
+    {
+      "id": 6,
+      "name": "Kantipur SD",
+      "slug": "kantipur-sd",
+      "logo": "https://kantipurtv-assets-cdn.ekantipur.com/uploads/source/author/KTV-1697453289.png",
+      "app": "kantipur"
+    },
+    {
+      "id": 7,
+      "name": "Krishi TV",
+      "slug": "krishi-tv",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/605.png",
+      "app": "krishi-tv"
+    },
+    {
+      "id": 8,
+      "name": "NTV",
+      "slug": "ntv",
+      "logo": "https://ntv.newitventure.com//images/channel_logos/1.png",
+      "app": "ntv"
+    },
+    {
+      "id": 9,
+      "name": "NTV Plus",
+      "slug": "ntv-plus",
+      "logo": "https://ntv.newitventure.com//images/channel_logos/2.png",
+      "app": "ntv"
+    },
+    {
+      "id": 10,
+      "name": "NTV News ",
+      "slug": "ntv-news",
+      "logo": "https://ntv.newitventure.com//images/channel_logos/3.png",
+      "app": "ntv"
+    },
+    {
+      "id": 11,
+      "name": "NTV Kohalpur",
+      "slug": "ntv-kohalpur",
+      "logo": "https://ntv.newitventure.com//images/channel_logos/4.png",
+      "app": "ntv"
+    },
+    {
+      "id": 12,
+      "name": "NTV Itahari ",
+      "slug": "ntv-itahari",
+      "logo": "https://ntv.newitventure.com//images/channel_logos/600.png",
+      "app": "ntv"
+    },
+    {
+      "id": 13,
+      "name": "Sagarmatha TV",
+      "slug": "sagarmatha-tv",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/610.png",
+      "app": "sagarmatha-tv"
+    },
+    {
+      "id": 14,
+      "name": "TV Today HD",
+      "slug": "tv-today-hd",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/tvtodayhd.png",
+      "app": "tv-today"
+    },
+    {
+      "id": 15,
+      "name": "TV One HD",
+      "slug": "tv-one-hd",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/2.png",
+      "app": "tv-today"
+    },
+    {
+      "id": 16,
+      "name": "TV World HD",
+      "slug": "tv-world-hd",
+      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/3.png",
+      "app": "tv-today"
+    },
+    {
       "id": "202",
       "name": "Mithila TV UHD",
       "slug": "mithila-tv-uhd",
@@ -55,134 +167,6 @@
       "logo": "https://api.eknepal.com/images/tv/janatatv.png",
       "url": "https://streaming.tvnepal.com:19360/janatatv/janatatv.m3u8",
       "app": "openiptv"
-    },
-    {
-      "id": 1,
-      "name": "ABC News Nepal",
-      "slug": "abc-news-nepal",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/608.png",
-      "app": "abc-news",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 2,
-      "name": "Business TV",
-      "slug": "business-tv",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/609.png",
-      "app": "business-tv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 3,
-      "name": "TV Filmy ",
-      "slug": "tv-filmy",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/607.png",
-      "app": "flim-gopikrishna",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 4,
-      "name": "Indigenous TV",
-      "slug": "indigenous-tv",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/606.png",
-      "app": "indigenious-tv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 5,
-      "name": "Kantipur HD",
-      "slug": "kantipur-hd",
-      "logo": "https://play-lh.googleusercontent.com/CQSmPpi6-l-S44IER_44ytPqQ-V4CbCPWspMJGNp3rYcD6VIEdiBenpMBB0DAi2Vow",
-      "app": "kantipur",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 6,
-      "name": "Kantipur SD",
-      "slug": "kantipur-sd",
-      "logo": "https://kantipurtv-assets-cdn.ekantipur.com/uploads/source/author/KTV-1697453289.png",
-      "app": "kantipur",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 7,
-      "name": "Krishi TV",
-      "slug": "krishi-tv",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/605.png",
-      "app": "krishi-tv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 8,
-      "name": "NTV",
-      "slug": "ntv",
-      "logo": "https://ntv.newitventure.com//images/channel_logos/1.png",
-      "app": "ntv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 9,
-      "name": "NTV Plus",
-      "slug": "ntv-plus",
-      "logo": "https://ntv.newitventure.com//images/channel_logos/2.png",
-      "app": "ntv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 10,
-      "name": "NTV News ",
-      "slug": "ntv-news",
-      "logo": "https://ntv.newitventure.com//images/channel_logos/3.png",
-      "app": "ntv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 11,
-      "name": "NTV Kohalpur",
-      "slug": "ntv-kohalpur",
-      "logo": "https://ntv.newitventure.com//images/channel_logos/4.png",
-      "app": "ntv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 12,
-      "name": "NTV Itahari ",
-      "slug": "ntv-itahari",
-      "logo": "https://ntv.newitventure.com//images/channel_logos/600.png",
-      "app": "ntv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 13,
-      "name": "Sagarmatha TV",
-      "slug": "sagarmatha-tv",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/610.png",
-      "app": "sagarmatha-tv",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 14,
-      "name": "TV Today HD",
-      "slug": "tv-today-hd",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/tvtodayhd.png",
-      "app": "tv-today",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 15,
-      "name": "TV One HD",
-      "slug": "tv-one-hd",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/2.png",
-      "app": "tv-today",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
-    },
-    {
-      "id": 16,
-      "name": "TV World HD",
-      "slug": "tv-world-hd",
-      "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/3.png",
-      "app": "tv-today",
-      "url": "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
     }
   ]
 }
