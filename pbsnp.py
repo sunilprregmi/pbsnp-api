@@ -14,7 +14,8 @@ def fetch_nepalese_pbs():
 def merge_json_files():
     input_file = "./openiptv.json"
     output_file = "nepalese-pbs.json"
-    default_url = "https://streamer.sunilprasad.com/live/multiBroadcast/playlist.m3u8"
+    
+    nepalese_pbs_data = fetch_nepalese_pbs()
     
     try:
         with open(input_file, "r", encoding="utf-8") as f:
@@ -23,13 +24,7 @@ def merge_json_files():
         print(f"File {input_file} not found. Using empty list.")
         openiptv_data = {"channels": []}
     
-    nepalese_pbs_data = fetch_nepalese_pbs()
-    
-    merged_channels = openiptv_data["channels"] + nepalese_pbs_data["channels"]
-    
-    for channel in merged_channels:
-        if not channel.get("url"):
-            channel["url"] = default_url
+    merged_channels = nepalese_pbs_data["channels"] + openiptv_data["channels"]
     
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump({"channels": merged_channels}, f, indent=2, ensure_ascii=False)
