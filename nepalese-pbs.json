@@ -113,6 +113,55 @@
       "app": "tv-today"
     },
     {
+      "id": 17,
+      "name": "Mithila TV UHD",
+      "slug": "mithila-tv-uhd",
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_lnh11AqLNQ8sCAftR0AztnnV_c1gr5hYG0sFV_",
+      "app": ""
+    },
+    {
+      "id": 18,
+      "name": "Capital TV HD",
+      "slug": "capital-tv",
+      "logo": "https://www.capitaltvhd.com/images/logo.png",
+      "app": ""
+    },
+    {
+      "id": 19,
+      "name": "Himalaya HD",
+      "slug": "himalaya-tv",
+      "logo": "https://play-lh.googleusercontent.com/P2fJJ2d1dHsLE_oFAHun8qGtrJGogS0qdJCtil1oDMTkBF9XpofbcnWBgznopVgnCA",
+      "app": ""
+    },
+    {
+      "id": 20,
+      "name": "Bodhi TV",
+      "slug": "bodhi-tv",
+      "logo": "https://play-lh.googleusercontent.com/QrJKPx0cErF2OVqbFLZTT7ULOwGGQquvOTyDQbuHp-GFaG-0Gjxs1fyXClpJgw8m41V5",
+      "app": ""
+    },
+    {
+      "id": 21,
+      "name": "Paryawaran TV",
+      "slug": "paryawaran-tv",
+      "logo": "https://play-lh.googleusercontent.com/nuKpFTfL_LoeT9XVIwtlpeBaRB5L0zmbF7j1hcFARHYgXyscoKRPeMntAXN_D81zZVbp",
+      "app": ""
+    },
+    {
+      "id": 22,
+      "name": "Divyadarshan TV",
+      "slug": "divyadarshan-tv",
+      "logo": "https://divyadarshantv.com/wp-content/uploads/2020/06/Divya-Darshan_tvlogo.png",
+      "app": ""
+    },
+    {
+      "id": 23,
+      "name": "Janata TV",
+      "slug": "janata-tv",
+      "logo": "https://api.eknepal.com/images/tv/janatatv.png",
+      "app": ""
+    },
+    {
       "id": "202",
       "name": "Mithila TV UHD",
       "slug": "mithila-tv-uhd",
