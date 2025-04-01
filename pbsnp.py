@@ -1,19 +1,19 @@
 import requests
-import json
+import requests
 
 def fetch_and_save_api_data():
     url = "https://np4.sunilprasad.com.np/api"
-    output_file = "nepalese-pbs.json"
+    output_file = "nepalese-pbs.json"  # Keeping name as requested, though it's plaintext
     
     try:
-        # Fetch API data
-        response = requests.get(url, timeout=10)
+        # Fetch API data with a descriptive user agent
+        response = requests.get(url, timeout=10, headers={"User-Agent": "PBS-Scraper/1.0"})
         response.raise_for_status()
-        api_data = response.json()
+        api_text = response.text  # Get plaintext response
         
         # Save to file (overwrites if exists)
         with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(api_data, f, indent=2, ensure_ascii=False)
+            f.write(api_text)
         
         print(f"Successfully saved API response to {output_file}")
         return True
