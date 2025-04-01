@@ -1,4 +1,3 @@
-import json
 import requests
 
 def fetch_nepalese_pbs():
@@ -11,25 +10,17 @@ def fetch_nepalese_pbs():
         print(f"Error fetching data: {e}")
         return {"channels": []}
 
-def merge_json_files():
-    input_file = "./openiptv.json"
+def save_api_data():
     output_file = "nepalese-pbs.json"
     
-    nepalese_pbs_data = fetch_nepalese_pbs()
+    # Fetch data directly from API
+    api_data = fetch_nepalese_pbs()
     
-    try:
-        with open(input_file, "r", encoding="utf-8") as f:
-            openiptv_data = json.load(f)
-    except FileNotFoundError:
-        print(f"File {input_file} not found. Using empty list.")
-        openiptv_data = {"channels": []}
-    
-    merged_channels = nepalese_pbs_data["channels"] + openiptv_data["channels"]
-    
+    # Save/overwrite the data to file
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump({"channels": merged_channels}, f, indent=2, ensure_ascii=False)
+        json.dump(api_data, f, indent=2, ensure_ascii=False)
     
-    print(f"Merged data saved successfully to {output_file}")
+    print(f"Data saved successfully to {output_file}")
 
 if __name__ == "__main__":
-    merge_json_files()
+    save_api_data()
