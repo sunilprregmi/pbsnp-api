@@ -37,118 +37,125 @@
     },
     {
       "id": 6,
+      "name": "Kantipur SD",
+      "slug": "kantipur-sd",
+      "logo": "https://kantipurtv-assets-cdn.ekantipur.com/uploads/source/author/KTV-1697453289.png",
+      "app": "kantipur"
+    },
+    {
+      "id": 7,
       "name": "Krishi TV",
       "slug": "krishi-tv",
       "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/605.png",
       "app": "krishi-tv"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "NTV",
       "slug": "ntv",
       "logo": "https://ntv.newitventure.com//images/channel_logos/1.png",
       "app": "ntv"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "NTV Plus",
       "slug": "ntv-plus",
       "logo": "https://ntv.newitventure.com//images/channel_logos/2.png",
       "app": "ntv"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "NTV News ",
       "slug": "ntv-news",
       "logo": "https://ntv.newitventure.com//images/channel_logos/3.png",
       "app": "ntv"
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "NTV Kohalpur",
       "slug": "ntv-kohalpur",
       "logo": "https://ntv.newitventure.com//images/channel_logos/4.png",
       "app": "ntv"
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "NTV Itahari ",
       "slug": "ntv-itahari",
       "logo": "https://ntv.newitventure.com//images/channel_logos/600.png",
       "app": "ntv"
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "Sagarmatha TV",
       "slug": "sagarmatha-tv",
       "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/610.png",
       "app": "sagarmatha-tv"
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "TV Today HD",
       "slug": "tv-today-hd",
       "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/tvtodayhd.png",
       "app": "tv-today"
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "TV One HD",
       "slug": "tv-one-hd",
       "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/2.png",
       "app": "tv-today"
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "TV World HD",
       "slug": "tv-world-hd",
       "logo": "https://tvtoday.nettvnepal.com.np/images/channel_logos/3.png",
       "app": "tv-today"
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "Mithila TV UHD",
       "slug": "mithila-tv-uhd",
       "logo": "https://yt3.googleusercontent.com/ytc/AIdro_lnh11AqLNQ8sCAftR0AztnnV_c1gr5hYG0sFV_",
       "app": "openiptv"
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "Capital TV HD",
       "slug": "capital-tv",
       "logo": "https://www.capitaltvhd.com/images/logo.png",
       "app": "openiptv"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Himalaya HD",
       "slug": "himalaya-tv",
       "logo": "https://play-lh.googleusercontent.com/P2fJJ2d1dHsLE_oFAHun8qGtrJGogS0qdJCtil1oDMTkBF9XpofbcnWBgznopVgnCA",
       "app": "openiptv"
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "Bodhi TV",
       "slug": "bodhi-tv",
       "logo": "https://play-lh.googleusercontent.com/QrJKPx0cErF2OVqbFLZTT7ULOwGGQquvOTyDQbuHp-GFaG-0Gjxs1fyXClpJgw8m41V5",
       "app": "openiptv"
     },
     {
-      "id": 20,
+      "id": 21,
       "name": "Paryawaran TV",
       "slug": "paryawaran-tv",
       "logo": "https://play-lh.googleusercontent.com/nuKpFTfL_LoeT9XVIwtlpeBaRB5L0zmbF7j1hcFARHYgXyscoKRPeMntAXN_D81zZVbp",
       "app": "openiptv"
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "Divyadarshan TV",
       "slug": "divyadarshan-tv",
       "logo": "https://divyadarshantv.com/wp-content/uploads/2020/06/Divya-Darshan_tvlogo.png",
       "app": "openiptv"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "Janata TV",
       "slug": "janata-tv",
       "logo": "https://api.eknepal.com/images/tv/janatatv.png",
